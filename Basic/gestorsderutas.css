@@ -1,0 +1,168 @@
+.caja3 {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 100px;
+    background-color: #3366FF;
+    color: white;
+    margin-bottom: 0;
+
+}
+
+/* Menu de nav */
+.menu li a {
+    display: block;
+
+    width: auto;
+    justify-content: space-between;
+    flex: grow 10;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bolder 15px;
+
+
+}
+
+.menu li {
+    display: inline-block;
+    /* justify-content: center; */
+}
+
+nav {
+    background-color: #154360;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.menu li a:hover {
+    background-color: chocolate;
+}
+.li-a-ruta {
+    background-color:chocolate ;
+}
+
+
+main {
+    padding: 30px 0 0 10px;
+    display: flex;
+}
+
+main h2 {
+    font-size: 50px;
+    /* text-align: center; */
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.mapa{
+    border: solid 3px black;
+    box-shadow:0 3px 3px 0 ;
+    margin: 30px 30px 30px 10px;
+}
+
+.atrs-sigt{
+ 
+    text-align: center;
+   
+}
+
+.astras{
+    padding: 10px 80px 10px 80px;
+    margin: 0 150px 30px 0;
+    background-color: chocolate;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.sigt{
+    padding: 10px 80px 10px 80px;
+    margin: 0 250px 30px 0;
+    background-color: #3366FF;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.section-li{
+    display: block;
+}
+
+
+
+
+.lista-de-datos-de-la-ruta{
+    /* width: 90px;*/
+    margin: 60px; 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* border: solid 3px black; */
+    box-shadow: gray 5px;
+    justify-content: space-around;
+    padding: 0px;
+    background-color: gray;
+    height: 300px;
+    
+
+}
+
+.li-1{
+    background-color:#21618C ;
+    color: white;
+    padding: 10px;
+}
+
+.li-2{
+    padding: 10px;
+}
+
+.aceptar{
+    margin-left: 40px;
+    padding:10px 80px 10px 80px ;
+    background-color:#21618C ;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px gray;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* footer */
+/* .footer{
+    margin: 10px;
+    
+} */
+
+.container-footer {
+    padding: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+    border-top: 3px solid #3366FF;
+    border-radius: 10px;
+
+}
+
+.container-footer img {
+    margin: 10px;
+}
+
+.coppy {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 13px;
+
+}
